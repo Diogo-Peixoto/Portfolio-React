@@ -30,8 +30,8 @@ export const Header = ()=>{
                         </li>
 
                         <li className="nav__item">
-                            <a href="#services" className="nav__link">
-                                <i className="uil uil-briefcase-alt nav__icon" /> Serviços
+                            <a href="#qualification" className="nav__link">
+                                <i className="uil uil-briefcase-alt nav__icon" /> Qualificações
                             </a>
                         </li>
 
