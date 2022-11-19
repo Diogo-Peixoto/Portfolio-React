@@ -8,6 +8,7 @@ export const HeaderStyle = styled.header`
     left: 0;
     z-index: var(--z-fixed);
     background-color: var(--body-color);
+    box-shadow: 0 -1px 4px rgba(0,0,0,0.15);
 
     nav{
         height: calc(var(--header-height) + 1.5rem);
@@ -51,7 +52,7 @@ export const HeaderStyle = styled.header`
     }
 
     .active-link{
-        color: var(--title-color-dark);
+        color: yellow;
     }
 
     /* For medium devices */

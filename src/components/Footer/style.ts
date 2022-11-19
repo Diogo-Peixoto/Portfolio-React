@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const FooterStyle = styled.section`
+export const FooterStyle = styled.footer`
     background-color: var(--container-color);
     border-top: 1px solid rgba(0, 0, 0, 0.1);
 
