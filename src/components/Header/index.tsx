@@ -21,6 +21,12 @@ export const Header = ()=>{
             setSection("#qualification")
 
         }
+        else if(this.scrollY <= 3363){
+            setSection("#portfolio")
+
+        }else{
+            setSection("#contact")
+        }
         
         
     })

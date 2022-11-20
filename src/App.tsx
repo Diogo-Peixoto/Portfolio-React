@@ -7,6 +7,7 @@ import { Home } from "./components/Home"
 import { Qualification } from "./components/Qualification"
 import { Scrollup } from "./components/Scrollup"
 import { Skills } from "./components/Skills"
+import { Work } from "./components/Work"
 
 function App() {
 
@@ -19,6 +20,7 @@ function App() {
         <About />
         <Skills />
         <Qualification />
+        <Work />
         <Contact />
       </main>
       <Footer />

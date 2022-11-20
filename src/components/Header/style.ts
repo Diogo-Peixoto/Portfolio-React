@@ -47,12 +47,17 @@ export const HeaderStyle = styled.header`
         font-weight: var(--font-medium);
     }
 
+    .nav__logo{
+        font-weight: var(--font-semi-bold);
+        font-size: var(--h3-font-size);
+    }
+
     i, .nav__toggle {
         display: none;
     }
 
     .active-link{
-        color: yellow;
+        color: #AD9C9C;
     }
 
     /* For medium devices */

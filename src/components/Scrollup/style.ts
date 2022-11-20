@@ -31,6 +31,10 @@ export const ScrollStyle = styled.a`
         }
     }
 
+    @media screen and (max-width: 768px){
+        bottom: 4rem;
+    }
+
     @media screen and (max-width: 350px) {
         right: 1rem;
     }
