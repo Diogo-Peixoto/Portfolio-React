@@ -9,6 +9,7 @@ export const AboutStyle = styled.section`
         &>img{
             width: 350px;
             border-radius: 1.5rem;
+
             justify-self: center;
         }
     }
@@ -18,18 +19,19 @@ export const AboutStyle = styled.section`
         margin-bottom: var(--mb-2-5);
     }
 
+
     @media screen and (max-width: 992px){
         & > div{
             grid-template-columns: 1fr;
 
-            &>img{
+            & > img{
                 width: 220px;
             }
 
             .about__data{
                 text-align: center;
 
-                &>div{
+                & > div{
                     justify-content: center;
                 }
             }
@@ -65,7 +67,7 @@ export const AboutStyle = styled.section`
 export const InfoStyle = styled.div`
 
     grid-template-columns: repeat(3, 140px);
-    gap: 0.5rem;
+    gap: 1rem;
     margin-bottom: var(--mb-2);
 
     .about__box{

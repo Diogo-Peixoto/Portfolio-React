@@ -10,6 +10,7 @@ export const WorksStyle = styled.div`
         justify-content: center;
         align-items: center;
         column-gap: 0.75rem;
+        
         margin-bottom: var(--mb-2);
     }
 
@@ -75,6 +76,12 @@ export const WorkItemStyle = styled.div`
     border: 1px solid rgba(0, 0, 0, 0.1);
     padding: 1.25rem;
     border-radius: 1rem;
+
+    transition: transform 0.7s;
+
+    :hover{
+        transform: scale(1.03);
+    }
 
     img{
         width: 295px;

@@ -34,7 +34,7 @@ export const Header = ()=>{
     return(
         <HeaderStyle>
             <nav className="container">
-                <a href="index.html" className="nav__logo">Diogo</a>
+                <a href="#" className="nav__logo">Diogo</a>
 
                 <div className={isMenu ? "nav__menu show-menu":"nav__menu"}>
                     <ul className="grid">

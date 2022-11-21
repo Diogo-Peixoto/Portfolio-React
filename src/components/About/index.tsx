@@ -1,13 +1,13 @@
 import { Info } from "./info"
 import { AboutStyle } from "./style"
-import ImageAbout from "/src/assets/about.jpg"
+import ImageAbout from "/src/assets/profile.jpg"
 import CV from "/src/assets/curriculo-Diogo_Peixoto.pdf"
 
 export const About = ()=>{
     return (
         <AboutStyle className="section" id="about">
-            <h2 className="section__title">About Me</h2>
-            <span className="section__subtitle">My introduction</span>
+            <h2 className="section__title">Sobre</h2>
+            <span className="section__subtitle">Introdução</span>
 
             <div className="container grid">
                 <img src={ImageAbout} alt="about__img" />
@@ -16,8 +16,8 @@ export const About = ()=>{
                     <Info />
 
                     <p className="about__description">
-                        Frontend developer, I create web pages with UI / UX user interface, I have years of experience and many
-                         clients are happy with the projects carried out.
+                        Desenvolvedor frontend, estudo programação há mais de 1 ano , acumulo experiências de cursos e projetos 
+                        pessoais.
                     </p>
 
                     <a download="" href={CV} className="button button--flex">

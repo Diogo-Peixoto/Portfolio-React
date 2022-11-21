@@ -17,12 +17,12 @@ export const Contact = ()=>{
 
     return(
         <ContactStyle className="section" id="contact">
-            <h2 className="section__title">Contact</h2>
-            <span className="section__subtitle">Contact Me</span>
+            <h2 className="section__title">Contatos</h2>
+            <span className="section__subtitle">Formas de contactar</span>
 
             <div className="container grid">
                 <div className="contact__content">
-                    <h3>Talk to me</h3>
+                    <h3>Fale comigo</h3>
 
                     <div className="contact__info">
                         <div className="contact__card">
@@ -30,7 +30,7 @@ export const Contact = ()=>{
 
                             <h3>Email</h3>
                             <span>diogosoarespeixoto41@gmail.com</span>
-                            <a className="contact__button" href="mailto:diogosoarespeixoto41@gmail.com">Write me <i className="bx bx-right-arrow-alt" /></a>
+                            <a className="contact__button" href="mailto:diogosoarespeixoto41@gmail.com">Acessar <i className="bx bx-right-arrow-alt" /></a>
                         </div>
 
                         <div className="contact__card">
@@ -38,7 +38,7 @@ export const Contact = ()=>{
 
                             <h3>Whatsapp</h3>
                             <span>(38)9 9997-7397</span>
-                            <a className="contact__button" href="https://web.whatsapp.com/send/?phone=5538999977397">Write me <i className="bx bx-right-arrow-alt"></i></a>
+                            <a className="contact__button" href="https://web.whatsapp.com/send/?phone=5538999977397">Acessar <i className="bx bx-right-arrow-alt"></i></a>
                         </div>
 
                         <div className="contact__card">
@@ -46,32 +46,32 @@ export const Contact = ()=>{
 
                             <h3>Linkedin</h3>
                             <span>Diogo Peixoto</span>
-                            <a className="contact__button" href="https://www.linkedin.com/in/diogo-soares-peixoto/">Write me <i className="bx bx-right-arrow-alt"></i></a>
+                            <a className="contact__button" href="https://www.linkedin.com/in/diogo-soares-peixoto/">Acessar <i className="bx bx-right-arrow-alt"></i></a>
                         </div>
                     </div>
                 </div>
 
                 <div className="contact__content">
-                    <h3>Write me your project</h3>
+                    <h3>Escreva uma mensagem</h3>
 
                     <form ref={form} onSubmit={sendEmail}>
                         <div>
-                            <label>Name</label>
-                            <input type="text" name="name" placeholder="Insert your name" />
+                            <label>Nome</label>
+                            <input type="text" name="name" placeholder="Insira seu nome" />
                         </div>
 
                         <div>
                             <label>Email</label>
-                            <input type="email" name="elail" placeholder="Insert your email" />
+                            <input type="email" name="elail" placeholder="Insira seu nome email" />
                         </div>
 
                         <div className="contact__form-area">
-                            <label>Messege</label>
-                            <textarea name="messege" placeholder="Write your messege" cols={30} rows={10} />
+                            <label>Mensagem</label>
+                            <textarea name="messege" placeholder="Escreva sua mensagem" cols={30} rows={10} />
                         </div>
 
                         <button type='submit' className="button button--flex">
-                            Send Message
+                            Enviar mensagem
                             <svg
                             className="button__icon"
                             xmlns="http://www.w3.org/2000/svg"

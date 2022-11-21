@@ -5,7 +5,7 @@ export const Work = ()=>{
     return(
         <WorkStyle className="section" id="portfolio">
             <h2 className="section__title">Portfólio</h2>
-            <span className="section__subtitle">Most recent works</span>
+            <span className="section__subtitle">Trabalhos mais recentes</span>
 
             <Works />
         </WorkStyle>

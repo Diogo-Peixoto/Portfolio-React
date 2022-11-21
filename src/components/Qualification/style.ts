@@ -5,7 +5,7 @@ export const QualiStyle = styled.section`
 
     & > div{
         max-width: 768px;
-        min-height: 490px;
+        min-height: 400px;
 
         margin-left: auto;
         margin-right: auto;
@@ -58,6 +58,8 @@ export const QualiStyle = styled.section`
             grid-template-columns: 1fr max-content 1fr;
             column-gap: 1.5rem;
 
+            
+
             h3{
                 font-size: var(--normal-font-size);
                 font-weight: var(--font-medium);
@@ -75,6 +77,7 @@ export const QualiStyle = styled.section`
 
             .qualification__rounder{
                 display: inline-block;
+                
                 width: 13px;
                 height: 13px;
                 background-color: var(--text-color);
@@ -83,6 +86,7 @@ export const QualiStyle = styled.section`
 
             .qualification__line{
                 display: block;
+
                 width: 1px;
                 height: 100%;
                 background-color: var(--text-color);

@@ -212,3 +212,12 @@ img {
     margin-right: var(--mb-1);
   }
 }
+
+@keyframes render {
+  from {
+    transform: translateX(100px);
+  }
+  to {
+    transform: translateX(0);
+  }
+}

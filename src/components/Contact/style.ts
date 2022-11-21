@@ -114,8 +114,6 @@ export const ContactStyle = styled.section`
                 resize: none;
             }
         }
-
-
     }
 
     @media screen and (max-width: 992px) {
@@ -140,8 +138,7 @@ export const ContactStyle = styled.section`
     }
 
     @media screen and (max-width: 576px) {
-        
-
+    
         .contact__info{
             grid-template-columns: 1fr;
         }

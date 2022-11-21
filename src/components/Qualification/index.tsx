@@ -6,8 +6,8 @@ export const Qualification = ()=>{
 
     return(
         <QualiStyle className="section" id="qualification">
-            <h2 className="section__title">Qualification</h2>
-            <span className="section__subtitle">My personal journey</span>
+            <h2 className="section__title">Qualificações</h2>
+            <span className="section__subtitle">Minha jornada pessoal</span>
 
             <div className="container">
                 <div className="qualification__tabs">
@@ -24,11 +24,11 @@ export const Qualification = ()=>{
                     <div className={toggleState == 1 ? "qualification__content-active" : ""}>
                         <div className="qualification__data">
                             <div>
-                                <h3>Web Design</h3>
-                                <p>Spain - Institute</p>
+                                <h3>FullStack Developer</h3>
+                                <p>Kenzie Academy</p>
 
                                 <div>
-                                    <i className='uil uil-calendar-alt ' /> 2022 - Present
+                                    <i className='uil uil-calendar-alt ' /> 06/22 - Presente
                                 </div>
                             </div>
 
@@ -46,22 +46,22 @@ export const Qualification = ()=>{
                             </div>
 
                             <div>
-                                <h3>Art Director</h3>
-                                <p>Spain - Institute</p>
+                                <h3>Web Developer</h3>
+                                <p>Kenzie Academy</p>
 
                                 <div>
-                                    <i className='uil uil-calendar-alt ' /> 2022 - Present
+                                    <i className='uil uil-calendar-alt ' /> 06/22 - 11/22
                                 </div>
                             </div>
                         </div>
 
                         <div className="qualification__data">
                             <div>
-                                <h3>Web Design</h3>
-                                <p>Spain - Institute</p>
+                                <h3>Web FullStack Developer</h3>
+                                <p>ProgramadorBR</p>
 
                                 <div>
-                                    <i className='uil uil-calendar-alt ' /> 2022 - Present
+                                    <i className='uil uil-calendar-alt ' /> 02/21 - 09/21
                                 </div>
                             </div>
 
@@ -71,32 +71,17 @@ export const Qualification = ()=>{
                             </div>
                         </div>
 
-                        <div className="qualification__data">
-                            <div></div>
-                            <div>
-                                <span className="qualification__rounder"></span>
-                                <span className="qualification__line"></span>
-                            </div>
-
-                            <div>
-                                <h3>Art Director</h3>
-                                <p>Spain - Institute</p>
-
-                                <div>
-                                    <i className='uil uil-calendar-alt ' /> 2022 - Present
-                                </div>
-                            </div>
-                        </div>
+                        
                     </div>
 
                     <div className={toggleState == 2 ? "qualification__content-active" : ""}>
                         <div className="qualification__data">
                             <div>
-                                <h3>Product Designer</h3>
-                                <p>Microsoft - Spain</p>
+                                <h3>Monitor</h3>
+                                <p>Kenzie Academy</p>
 
                                 <div>
-                                    <i className='uil uil-calendar-alt ' /> 2022 - Present
+                                    <i className='uil uil-calendar-alt ' /> 07/22 - 09/22
                                 </div>
                             </div>
 
@@ -106,38 +91,6 @@ export const Qualification = ()=>{
                             </div>
                         </div>
 
-                        <div className="qualification__data">
-                            <div></div>
-                            <div>
-                                <span className="qualification__rounder"></span>
-                                <span className="qualification__line"></span>
-                            </div>
-
-                            <div>
-                                <h3>Art Director</h3>
-                                <span>Spain - Institute</span>
-
-                                <div>
-                                    <i className='uil uil-calendar-alt ' /> 2022 - Present
-                                </div>
-                            </div>
-                        </div>
-
-                        <div className="qualification__data">
-                            <div>
-                                <h3>Web Design</h3>
-                                <p>Spain - Institute</p>
-
-                                <div>
-                                    <i className='uil uil-calendar-alt ' /> 2022 - Present
-                                </div>
-                            </div>
-
-                            <div>
-                                <span className="qualification__rounder"></span>
-                                <span className="qualification__line"></span>
-                            </div>
-                        </div>
                     </div>
                 </div>
             </div>

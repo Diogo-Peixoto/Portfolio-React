@@ -3,7 +3,7 @@ import { Content } from "./style"
 export const Frontend = ()=>{
     return(
         <Content>
-            <h3>Frontend developer</h3>
+            <h3>Front-end</h3>
 
             <div className="skils__box">
                 <div className="skills__group">

@@ -1,21 +1,21 @@
 import styled from "styled-components";
 
 export const SkillStyle = styled.section`
-    &>div{
+    & > div{
         grid-template-columns: repeat(2, 350px);
         column-gap: 3rem;
         justify-content: center;
     }
 
     @media screen and (max-width: 992px){
-        &>div{
+        & > div{
             grid-template-columns: max-content;
             row-gap: 2rem;
         }
     }
 
     @media screen and (max-width: 576px){
-        &>div{
+        & > div{
             grid-template-columns: 1fr;
         }
     }
@@ -26,6 +26,12 @@ export const Content = styled.div`
     border: 1px solid rgba(0, 0, 0, 0.1);
     border-radius: 1.25rem;
     padding: 2rem 4rem;
+
+    transition: transform 0.7s;
+
+    :hover{
+        transform: scale(1.03);
+    }
 
     & > h3{
         font-size: var(--normal-font-size);

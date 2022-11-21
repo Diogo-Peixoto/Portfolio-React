@@ -20,4 +20,5 @@ export const  Scrollup = ()=>{
             </ScrollStyle>
         )
     }
+
 }

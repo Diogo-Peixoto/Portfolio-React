@@ -6,6 +6,7 @@ export interface IProps{
         image: string;
         title: string;
         category: string;
+        link: string;
     }
 }
 
@@ -14,7 +15,7 @@ export const WorkItem = ({item}:IProps)=>{
         <WorkItemStyle>
             <img src={item.image} alt="" />
             <h3>{item.title}</h3>
-            <a href="">Demo <i className="bx bx-right-arrow-alt" /></a>
+            <a href={item.link} target="_blank">Demo <i className="bx bx-right-arrow-alt" /></a>
         </WorkItemStyle>
     )
 }

@@ -8,6 +8,7 @@ interface IProject{
     image: string;
     title: string;
     category: string;
+    link: string;
 }
 
 
@@ -46,9 +47,13 @@ export const Works = ()=>{
 
             <div className="container grid">
                 {
-                    projects.map((item)=>{
-                        return <WorkItem key={item.id}  item={item} />
-                    })
+                    projects.length ?(
+                        projects.map((item)=>{
+                            return <WorkItem key={item.id}  item={item} />
+                        })
+                    ):(
+                        <p>Desculpe 😢 , ainda  estou estudando essa categoria.</p>
+                    )
                 }
             </div>
         </WorksStyle>

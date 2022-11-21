@@ -12,17 +12,17 @@ export const FooterStyle = styled.footer`
             justify-content: center;
             column-gap: 1.125rem;
 
-
             a{
+                height: 30px;
+                width: 30px;
                 background-color: var(--title-color);
                 color: var(--container-color);
                 font-size: 1.25rem;
                 border-radius: 0.5rem;
+
                 display: inline-flex;
                 justify-content: center;
-                
-                height: 30px;
-                width: 30px;
+            
             }
         }
     }
@@ -41,6 +41,7 @@ export const FooterStyle = styled.footer`
         display: flex;
         justify-content: center;
         column-gap: 1.5rem;
+
         margin-bottom: var(--mb-2);
 
         a:hover{
@@ -50,13 +51,11 @@ export const FooterStyle = styled.footer`
 
     span{
         display: block;
+        text-align: center;
+
         margin-top: 4.5rem;
         color: var(--title-color);
-        text-align: center;
         font-size: var(--small-font-size);
     }
 
-    @media screen and (max-width: 992px) {
-        
-    }
 `

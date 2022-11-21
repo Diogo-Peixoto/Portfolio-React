@@ -1,11 +1,10 @@
 import { HomeData } from "./style"
-import Image from "../../assets/hand.svg"
 
 
 export const Data = () => {
   return (
     <HomeData>
-        <h1>John Smith
+        <h1>Diogo 
             <svg
                   width="36"
                   height="36"
@@ -59,11 +58,11 @@ export const Data = () => {
         <h3>Desenvolvedor Web</h3>
         
         <p className="home__description">
-            I'm creative designer based in New York, and I'm very passionate and dedicated to my work.
+        Sou um desenvolvedor júnior à procura da primeira oportunidade , muito apaixonado e dedicado ao meu trabalho.
         </p>
         
         <a href="#contact" className="button button--flex">
-            Say Hello
+            Contactar
             <svg
             className="button__icon"
             xmlns="http://www.w3.org/2000/svg"

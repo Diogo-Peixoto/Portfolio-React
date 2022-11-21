@@ -3,7 +3,7 @@ import { Content } from "./style"
 export const Backend = ()=>{
     return(
         <Content>
-            <h3>Backend Developer</h3>
+            <h3>Back-end</h3>
 
             <div>
                 <div className="skills__group">

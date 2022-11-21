@@ -4,7 +4,7 @@ export const  Footer = ()=>{
     return(
         <FooterStyle>
             <div className="container">
-                <h2>Smith</h2>
+                <h2>Diogo Peixoto</h2>
 
                 <ul>
                     <li>
