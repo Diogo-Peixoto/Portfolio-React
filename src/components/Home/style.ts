@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import ImageProfile from "../../assets/profile.jpg"
 
 export const HomeStyle = styled.section`
     .container{
@@ -12,7 +13,7 @@ export const HomeStyle = styled.section`
         align-items: center;
 
         .home__img{
-            background: url('./src/assets/profile.jpg');
+            background: url(${ImageProfile});
             background-repeat: no-repeat;
             background-position: center;
             background-size: cover;
