@@ -12,7 +12,7 @@ export const HomeStyle = styled.section`
         align-items: center;
 
         .home__img{
-            background: url(src/assets/profile.jpg);
+            background: url('src/assets/profile.jpg');
             background-repeat: no-repeat;
             background-position: center;
             background-size: cover;
