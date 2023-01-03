@@ -12,7 +12,7 @@ export const Info = ()=>{
             <div className="about__box">
                 <i className='bx bx-briefcase-alt' />
                 <h3 >Projetos</h3>
-                <span >4+ Projetos</span>
+                <span >5+ Projetos</span>
             </div>
 
         </InfoStyle>
