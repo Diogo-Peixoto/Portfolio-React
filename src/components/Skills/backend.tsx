@@ -53,6 +53,15 @@ export const Backend = ()=>{
                             <span>Basic</span>
                         </div>
                     </div>
+
+                    <div className="skills__data">
+                        <i className='bx bx-badge-check' />
+
+                        <div>
+                            <h3>Jest</h3>
+                            <span>Basic</span>
+                        </div>
+                    </div>
                 </div>
             </div>
         </Content>
