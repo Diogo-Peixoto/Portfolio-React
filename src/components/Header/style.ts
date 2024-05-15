@@ -3,8 +3,11 @@ import styled from "styled-components"
 export const HeaderStyle = styled.header`
 
     width: 100%;
-    background-color: var(--body-color);
-    box-shadow: 0 -1px 4px rgba(0,0,0,0.15);
+    box-shadow: 0 -1px 4px rgba(0,0,0,0.15); 
+    background: rgba( 255, 255, 255, 0.35 );
+    backdrop-filter: blur( 13.5px );
+    -webkit-backdrop-filter: blur( 13.5px );
+    
 
     position: fixed;
     top: 0;

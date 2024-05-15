@@ -16,8 +16,8 @@ export const About = ()=>{
                     <Info />
 
                     <p className="about__description">
-                        Desenvolvedor frontend, estudo programação há mais de 1 ano , acumulo experiências de cursos e projetos 
-                        pessoais.
+                    Tenho experiência comprovada com <b>React</b>, <b>Next</b>, <b>TypeScript</b> e <b>JavaScript</b>, mas não me limito apenas a isso.
+                    
                     </p>
 
                     <a download="" href={CV} className="button button--flex">

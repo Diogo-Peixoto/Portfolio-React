@@ -58,7 +58,7 @@ export const Data = () => {
         <h3>Desenvolvedor Web</h3>
         
         <p className="home__description">
-        Sou um desenvolvedor júnior à procura da primeira oportunidade , muito apaixonado e dedicado ao meu trabalho.
+        Sou um desenvolvedor especializado em front-end com conhecimentos em back-end.
         </p>
         
         <a href="#contact" className="button button--flex">

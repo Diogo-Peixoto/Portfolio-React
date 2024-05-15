@@ -12,7 +12,7 @@ export const Frontend = ()=>{
 
                         <div>
                             <h3>React</h3>
-                            <span>Intermediate</span>
+                            <span>Pleno</span>
                         </div>
                     </div>
 
@@ -21,7 +21,7 @@ export const Frontend = ()=>{
 
                         <div>
                             <h3>TypeScript</h3>
-                            <span>Basic</span>
+                            <span>Pleno</span>
                         </div>
                     </div>
 
@@ -30,7 +30,7 @@ export const Frontend = ()=>{
 
                         <div>
                             <h3>JavaScript</h3>
-                            <span>Intermediate</span>
+                            <span>Pleno</span>
                         </div>
                     </div>
                 </div>
@@ -41,26 +41,26 @@ export const Frontend = ()=>{
                         <i className='bx bx-badge-check' />
 
                         <div>
+                            <h3>Next</h3>
+                            <span>Pleno</span>
+                        </div>
+                    </div>
+
+                    <div className="skills__data">
+                        <i className='bx bx-badge-check' />
+
+                        <div>
+                            <h3>Tailwind</h3>
+                            <span>Pleno</span>
+                        </div>
+                    </div>
+
+                    <div className="skills__data">
+                        <i className='bx bx-badge-check' />
+
+                        <div>
                             <h3>Git</h3>
-                            <span>Intermediate</span>
-                        </div>
-                    </div>
-
-                    <div className="skills__data">
-                        <i className='bx bx-badge-check' />
-
-                        <div>
-                            <h3>CSS</h3>
-                            <span>Intermediate</span>
-                        </div>
-                    </div>
-
-                    <div className="skills__data">
-                        <i className='bx bx-badge-check' />
-
-                        <div>
-                            <h3>HTML</h3>
-                            <span>Intermediate</span>
+                            <span>Pleno</span>
                         </div>
                     </div>
                 </div>

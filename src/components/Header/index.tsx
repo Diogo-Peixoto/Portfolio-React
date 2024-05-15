@@ -3,6 +3,7 @@ import { HeaderStyle } from "./style"
 
 export const Header = ()=>{
     const [isMenu, setIsMenu] = useState(false)
+    const [isScroll, setIsScroll] = useState(false)
 
     const [ section, setSection ] = useState("#home")
 

@@ -87,6 +87,7 @@ export const WorkItemStyle = styled.div`
         width: 295px;
         border-radius: 1rem;
         margin-bottom: var(--mb-1);
+        max-height: 206px;
     }
 
     h3{

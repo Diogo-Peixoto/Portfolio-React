@@ -2,7 +2,7 @@ import { useState } from "react"
 import { QualiStyle } from "./style"
 
 export const Qualification = ()=>{
-    const [ toggleState, setToggleState ] = useState(1)
+    const [ toggleState, setToggleState ] = useState(2)
 
     return(
         <QualiStyle className="section" id="qualification">
@@ -77,17 +77,33 @@ export const Qualification = ()=>{
                     <div className={toggleState == 2 ? "qualification__content-active" : ""}>
                         <div className="qualification__data">
                             <div>
-                                <h3>Monitor</h3>
-                                <p>Kenzie Academy</p>
+                                <h3>Dev Front-end</h3>
+                                <p>UX DOC</p>
 
                                 <div>
-                                    <i className='uil uil-calendar-alt ' /> 07/22 - 09/22
+                                    <i className='uil uil-calendar-alt ' /> 02/23 - 03/24
                                 </div>
                             </div>
 
                             <div>
                                 <span className="qualification__rounder"></span>
                                 <span className="qualification__line"></span>
+                            </div>
+                        </div>
+                        <div className="qualification__data">
+                            <div></div>
+                            <div>
+                                <span className="qualification__rounder"></span>
+                                <span className="qualification__line"></span>
+                            </div>
+
+                            <div>
+                                <h3>Monitor</h3>
+                                <p>Kenzie Academy</p>
+
+                                <div>
+                                    <i className='uil uil-calendar-alt ' /> 07/22 - 09/22
+                                </div>
                             </div>
                         </div>
 

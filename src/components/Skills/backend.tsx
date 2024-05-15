@@ -29,7 +29,7 @@ export const Backend = ()=>{
                         <i className='bx bx-badge-check' />
 
                         <div>
-                            <h3>TypeScript</h3>
+                            <h3>AWS</h3>
                             <span>Basic</span>
                         </div>
                     </div>

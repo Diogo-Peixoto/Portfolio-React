@@ -28,7 +28,7 @@ export const  Footer = ()=>{
                     <a href="https://web.whatsapp.com/send/?phone=5538999977397" target="_blank"><i className="uil uil-whatsapp"></i></a>
                 </div>
 
-                <span>&#169; Crypticalcoder. Reserved template</span>
+                <span>@Diogo-Peixoto</span>
             </div>
         </FooterStyle>
     )
